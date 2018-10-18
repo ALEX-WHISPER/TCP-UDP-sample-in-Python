@@ -1,0 +1,20 @@
+'''
+Created on 2018年10月17日
+
+@author: 钟以琛
+'''
+
+from socket import *
+from pip._vendor.distlib.compat import raw_input
+
+serverName = 'hostname'
+serverPort = 12000
+
+clientSocket = socket(AF_INET, SOCK_DGRAM);
+message = raw_input('Input lower case sentence:') # raw_input(): python 内置 api
+
+'''
+encode(): string->byte
+sendto(): 向  clientSocket 发送结果分组(源地址将自动附上)
+'''
+clientSocket.sendto(message.encode(), (serverName, serverPort))

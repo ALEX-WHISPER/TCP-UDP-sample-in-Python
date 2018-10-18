@@ -1,0 +1,23 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\Admin\Desktop\Courses\PythonDev\Startup\.metadata\.plugins\org.eclipse.core.resources\.projects\UDP_TCP_Demo\com.python.pydev.analysis\v2_indexcache
+UDPServer|1539771999721000000|C:\Users\Admin\Desktop\Courses\PythonDev\Startup\UDP_TCP_Demo\UDPServer.py
+UDPClient|1539772620846000000|C:\Users\Admin\Desktop\Courses\PythonDev\Startup\UDP_TCP_Demo\UDPClient.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=C:\Users\Admin\Desktop\Courses\PythonDev\Startup\UDP_TCP_Demo\UDPClient.py
+3=C:\Users\Admin\Desktop\Courses\PythonDev\Startup\UDP_TCP_Demo\UDPServer.py
+4=UDPServer
+2=UDPClient
+-- END DICTIONARY
+-- START TREE 1
+4
+cli|1|clientSocket!1^13#1*19@
+mes|1|message!1^14#1*19@
+mod|1|modifiedMessage!3^14#5*35@
+ser|4|serverPort!1^11#1*19@serverSocket!3^9#1*35@serverName!1^10#1*19@serverPort!3^8#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
